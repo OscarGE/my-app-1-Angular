@@ -1,8 +1,31 @@
 div{
-  border: 5px solid #5A00FF
+  border: 5px solid #5A00FF;
+  text-align: center;
 }
 p{
   text-align: center;
   font-size: 30px;
   color: #8D88F9;
+}
+.rojo{
+  color: #F76060;
+  font-size: 25px;
+}
+table, th, td{
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #F9EC19;
+}
+.menor{
+ border: none;
+
+}
+.menor > p{
+  font-size: 20px;
+  color: #04B300;
+}
+input{
+  width: 20%;
+  color: #F76060;
+  font-size: 20px;
 }
