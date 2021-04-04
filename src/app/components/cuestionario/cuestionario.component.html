@@ -1,0 +1,109 @@
+<div id="contenido">
+  <div id="titulo">
+    <p>Cuestionario de conocimientos generales</p>
+  </div>
+  <div id="preguntas">
+    1. {{preguntas[0]}}<br>
+    <input type="radio" value="Palabra para usar en vez del nombre" name="respuesta1" [(ngModel)]="respuestasContestadas[0]">
+    <p>a) Palabra para usar en vez del nombre</p> <small class="bien">{{palomita}}</small><br>
+    <input type="radio" value="Palabra que va antes del nombre" name="respuesta1" [(ngModel)]="respuestasContestadas[0]">
+    <p>b) Palabra que va antes del nombre</p><br>
+    <input type="radio" value="Palabra que acompaña al sustantivo" name="respuesta1" [(ngModel)]="respuestasContestadas[0]">
+    <p>c) Palabra que acompaña al sustantivo</p><br>
+    <input type="radio" value="Palabra que va despúes del nombre" name="respuesta1" [(ngModel)]="respuestasContestadas[0]">
+    <p>d) Palabra que va despúes del nombre</p><br><br>
+
+    2. {{preguntas[1]}}<br>
+    <input type="radio" value="La superficie" name="respuesta2" [(ngModel)]="respuestasContestadas[1]">
+    <p>a) La superficie</p><br>
+    <input type="radio" value="Su atmósfera" name="respuesta2" [(ngModel)]="respuestasContestadas[1]">
+    <p>b) Su atmósfera</p> <small class="bien">{{palomita}}</small><br>
+    <input type="radio" value="El núcleo" name="respuesta2" [(ngModel)]="respuestasContestadas[1]">
+    <p>c) El núcleo</p><br>
+    <input type="radio" value="La corona" name="respuesta2" [(ngModel)]="respuestasContestadas[1]">
+    <p>d) La corona</p><br><br>
+
+    3. {{preguntas[2]}}<br>
+    <input type="radio" value="Cobre" name="respuesta3" [(ngModel)]="respuestasContestadas[2]">
+    <p>a) Cobre</p> <small class="bien">{{palomita}}</small><br>
+    <input type="radio" value="Aluminio" name="respuesta3" [(ngModel)]="respuestasContestadas[2]">
+    <p>b) Aluminio</p><br>
+    <input type="radio" value="Carbono" name="respuesta3" [(ngModel)]="respuestasContestadas[2]">
+    <p>c) Carbono</p><br>
+    <input type="radio" value="Oro" name="respuesta3" [(ngModel)]="respuestasContestadas[2]">
+    <p>d) Oro</p><br><br>
+
+    4. {{preguntas[3]}}<br>
+    <input type="radio" value="1954" name="respuesta4" [(ngModel)]="respuestasContestadas[3]">
+    <p>a) 1954</p> <small class="bien">{{palomita}}</small><br>
+    <input type="radio" value="1957" name="respuesta4" [(ngModel)]="respuestasContestadas[3]">
+    <p>b) 1957</p><br>
+    <input type="radio" value="1960" name="respuesta4" [(ngModel)]="respuestasContestadas[3]">
+    <p>c) 1960</p><br>
+    <input type="radio" value="1980" name="respuesta4" [(ngModel)]="respuestasContestadas[3]">
+    <p>d) 1980</p><br><br>
+
+    5. {{preguntas[4]}}<br>
+    <input type="radio" value="Isósceles" name="respuesta5" [(ngModel)]="respuestasContestadas[4]">
+    <p>a) Isósceles</p><br>
+    <input type="radio" value="Escaleno" name="respuesta5" [(ngModel)]="respuestasContestadas[4]">
+    <p>b) Escaleno</p> <small class="bien">{{palomita}}</small><br>
+    <input type="radio" value="Equilátero" name="respuesta5" [(ngModel)]="respuestasContestadas[4]">
+    <p>c) Equilátero</p><br>
+    <input type="radio" value="Rectángulo" name="Rectángulo" [(ngModel)]="respuestasContestadas[4]">
+    <p>d) Rectángulo</p><br><br>
+
+    6. {{preguntas[5]}}<br>
+    <input type="radio" value="64" name="respuesta6" [(ngModel)]="respuestasContestadas[5]">
+    <p>a) 64</p><br>
+    <input type="radio" value="72" name="respuesta6" [(ngModel)]="respuestasContestadas[5]">
+    <p>b) 72</p> <small class="bien">{{palomita}}</small><br>
+    <input type="radio" value="87" name="respuesta6" [(ngModel)]="respuestasContestadas[5]">
+    <p>c) 87</p><br>
+    <input type="radio" value="66" name="respuesta6" [(ngModel)]="respuestasContestadas[5]">
+    <p>d) 66</p><br><br>
+
+    7. {{preguntas[6]}}<br>
+    <input type="radio" value="Chile y Uruguay" name="respuesta7" [(ngModel)]="respuestasContestadas[6]">
+    <p>a) Chile y Uruguay</p><br>
+    <input type="radio" value="Chile y Ecuador" name="respuesta7" [(ngModel)]="respuestasContestadas[6]">
+    <p>b) Chile y Ecuador</p><br>
+    <input type="radio" value="Ecuador y Argentina" name="respuesta7" [(ngModel)]="respuestasContestadas[6]">
+    <p>c) Ecuador y Argentina</p> <small class="bien">{{palomita}}</small><br>
+    <input type="radio" value="Venezuela y Perú" name="respuesta7" [(ngModel)]="respuestasContestadas[6]">
+    <p>d) Venezuela y Perú </p><br><br>
+
+    8. {{preguntas[7]}}<br>
+    <input type="radio" value="Salto del Ángel" name="respuesta8" [(ngModel)]="respuestasContestadas[7]">
+    <p>a) Salto del Ángel</p> <small class="bien">{{palomita}}</small><br>
+    <input type="radio" value="Cataratas Victoria" name="respuesta8" [(ngModel)]="respuestasContestadas[7]">
+    <p>b) Cataratas Victoria</p><br>
+    <input type="radio" value="Garganta do Diabo" name="respuesta8" [(ngModel)]="respuestasContestadas[7]">
+    <p>c) Garganta do Diabo</p><br>
+    <input type="radio" value="Cataratas del Iguazú" name="respuesta8" [(ngModel)]="respuestasContestadas[7]">
+    <p>d) Cataratas del Iguazú</p><br><br>
+
+    9. {{preguntas[8]}}<br>
+    <input type="radio" value="El Informante" name="respuesta9" [(ngModel)]="respuestasContestadas[8]">
+    <p>a) El Informante</p><br>
+    <input type="radio" value="Una Mente Brillante" name="respuesta9" [(ngModel)]="respuestasContestadas[8]">
+    <p>b) Una Mente Brillante</p><br>
+    <input type="radio" value="El Gladiador" name="respuesta9" [(ngModel)]="respuestasContestadas[8]">
+    <p>c) El Gladiador</p> <small class="bien">{{palomita}}</small><br>
+    <input type="radio" value="Noé" name="respuesta9" [(ngModel)]="respuestasContestadas[8]">
+    <p>d) Noé</p><br><br>
+
+    10. {{preguntas[9]}}<br>
+    <input type="radio" value="Esturión" name="respuesta10" [(ngModel)]="respuestasContestadas[9]">
+    <p>a) Esturión</p> <small class="bien">{{palomita}}</small><br>
+    <input type="radio" value="Salmón" name="respuesta10" [(ngModel)]="respuestasContestadas[9]">
+    <p>b) Salmón</p><br>
+    <input type="radio" value="Reineta" name="respuesta10" [(ngModel)]="respuestasContestadas[9]">
+    <p>c) Reineta</p><br>
+    <input type="radio" value="Pez borrón" name="respuesta10" [(ngModel)]="respuestasContestadas[9]">
+    <p>d) Pez borrón</p><br><br><br>
+    <button id="calificar" (click)="verificar()">Terminar Cuestionario</button>
+    <p id="resultado">{{resultados}}</p>
+
+  </div>
+</div>

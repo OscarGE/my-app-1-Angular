@@ -3,15 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import {FormsModule} from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { HolamundoComponent } from './components/holamundo/holamundo.component';
-import { CalculadoraComponent } from './components/calculadora/calculadora.component';
+import { CuestionarioComponent } from './components/cuestionario/cuestionario.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HolamundoComponent,
-    CalculadoraComponent,
+    CuestionarioComponent,
   ],
   imports: [
     BrowserModule, FormsModule
